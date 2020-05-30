@@ -32,7 +32,8 @@ git branch "branchName"	:		Used to create a branch on the github repository.
 git checkout "branchName":		To change branch in which we want to work.
 git add .		:		Add everything we had changed.
 git log 		:		It shows all of the commit which we have created.
-
+git revert "commitId"	:		This is used to revert the commit.		
+			
 We can create and checkout the branch by using a single command as well.
 git checkout -b "branchName"
 
@@ -48,4 +49,4 @@ git branch "branchName" -d
 To forcefully delete a branch
 git branch "branchName" -D
 
-this we will revert as this is of checking th data
+gitignore is a file that allows you to hide file in your repository so everybody on the web can't view them.
