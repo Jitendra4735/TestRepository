@@ -7,5 +7,9 @@ To update github by using github:
 
 How to add files to git:
 
-git init : will create a git repository on github
-git status : if we want to check what is present on the github repository.
+Commands				Use
+
+git init 		: 		will create a git repository on github
+git status 		: 		if we want to check what is present on the github repository.
+git add "FileName	:  		This command is used to add the file on git hub repository
+git commit -m "Message"	: 		This command is used to commit the changes by giving a commit message
