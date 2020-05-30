@@ -1,0 +1,11 @@
+Git is a version controlling feature.It help us to get all of the changes and commits on the project.Or we can say it track all of the 
+operations which are performed on the file present on git repository.
+
+
+To update github by using github:
+	git clone https://github.com/git/git 
+
+How to add files to git:
+
+git init : will create a git repository on github
+git status : if we want to check what is present on the github repository.
