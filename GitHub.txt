@@ -49,4 +49,14 @@ git branch "branchName" -d
 To forcefully delete a branch
 git branch "branchName" -D
 
-gitignore is a file that allows you to hide file in your repository so everybody on the web can't view them.
+NOTE :gitignore is a file that allows you to hide file in your repository so everybody on the web can't view them.So first create a .gitignore text
+file and write file name on this file to which we want to hide from users.
+and the run git add and commit command.
+
+NOTE: If we want to add another file to gitignore, and that file is already committed and present on github then first we need to remove the 
+cache from github of that file by using following command:
+git rm --cached "fileName"
+And then add this fileName to gitignore and again run add and commit command.So this file is also hidden from user.
+
+
+
