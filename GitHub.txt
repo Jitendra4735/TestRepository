@@ -31,7 +31,6 @@ git branch		:		Command is used to see the available branches on the github repos
 git branch "branchName"	:		Used to create a branch on the github repository.
 git checkout "branchName":		To change branch in which we want to work.
 git add .		:		Add everything we had changed.
-git log 		:		It shows all of the commit which we have created.
 
 We can create and checkout the branch by using a single command as well.
 git checkout -b "branchName"
@@ -47,5 +46,3 @@ git branch "branchName" -d
 
 To forcefully delete a branch
 git branch "branchName" -D
-
-this we will revert as this is of checking th data
