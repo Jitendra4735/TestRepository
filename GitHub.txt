@@ -13,3 +13,21 @@ git init 		: 		will create a git repository on github
 git status 		: 		if we want to check what is present on the github repository.
 git add "FileName	:  		This command is used to add the file on git hub repository
 git commit -m "Message"	: 		This command is used to commit the changes by giving a commit message
+
+Branches:
+Whenever we start working with large projects , we are having a large changes on the project , and we want to ensure that the new changes
+will not affect the previous running code, So we need to create branchings.
+OR
+As we begin to work with bigger project on git , what you wanna do is sometimes you want to make very large changes to your project while
+at the same time you want to ensure that all your previous code(the code that you know works) is safe.So if something wrong in the code,
+you will be able to revert to the previous stage.This can be achieved by git branch. We can make all of the code changes and if all works
+well , add it to the master branch.
+
+NOTE: Whenever we see * in front of branch name. It means whatever we are going to commit , is committed on that branch.
+
+Commands		:		Use
+
+git branch		:		Command is used to see the available branches on the github repository
+git branch "branchName"	:		Used to create a branch on the github repository.
+git checkout "branchName":		To change branch in which we want to work.
+
