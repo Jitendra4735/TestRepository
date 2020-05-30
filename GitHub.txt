@@ -30,6 +30,7 @@ Commands		:		Use
 git branch		:		Command is used to see the available branches on the github repository
 git branch "branchName"	:		Used to create a branch on the github repository.
 git checkout "branchName":		To change branch in which we want to work.
+git add .		:		Add everything we had changed.
 
 We can create and checkout the branch by using a single command as well.
 git checkout -b "branchName"
@@ -37,4 +38,11 @@ git checkout -b "branchName"
 
 NOTE: The changes which we had committed to branch will be availble to us at our local if we checkout that particular branch.
 
+If we want to merge a branch into another , first open that branch on which we want to merge any other branch.And write the following command:
+git merge "branchName we want to merge in this branch"
 
+Delete a branch
+git branch "branchName" -d
+
+To forcefully delete a branch
+git branch "branchName" -D
