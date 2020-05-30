@@ -60,3 +60,14 @@ And then add this fileName to gitignore and again run add and commit command.So 
 
 
 
+To upload our code to github:
+git remote add origin "github repository link provided by github when we create repository on that"
+
+To push our code to that repository:
+git push -u origin master
+
+To make changes and again push the file:
+git add .
+git commit -m "commit message"
+git push -u origin master
+
