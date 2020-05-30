@@ -35,4 +35,6 @@ We can create and checkout the branch by using a single command as well.
 git checkout -b "branchName"
 
 
+NOTE: The changes which we had committed to branch will be availble to us at our local if we checkout that particular branch.
+
 
