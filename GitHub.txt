@@ -31,3 +31,8 @@ git branch		:		Command is used to see the available branches on the github repos
 git branch "branchName"	:		Used to create a branch on the github repository.
 git checkout "branchName":		To change branch in which we want to work.
 
+We can create and checkout the branch by using a single command as well.
+git checkout -b "branchName"
+
+
+
